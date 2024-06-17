@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 
 app.get('/home', (req, res) => {
-    res.send({ message: "Welcome to Nodjs App"});
+    res.send({ message: "Welcome to Nodejs App"});
 })
 
 const port = process.env.PORT || 3001;
